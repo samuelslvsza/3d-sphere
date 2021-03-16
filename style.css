@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    background-color: rgb(255, 255, 255);
+
+}
+
+#div {
+    border-radius: 50%;
+    background-color: #FFC700;
+    box-shadow: 0px -70px 80px rgb(36, 36, 36) inset, 0px 0px 50px rgb(0, 174, 255);
+    width: 300px;
+    height: 300px;
+    margin: 5% auto; 
+    animation: flutuar infinite ease-out 5s;
+}
+
+#sombra {
+    width: 230px;
+    height: 110px;
+    border-radius: 50%;
+    margin: -35% auto;
+    box-shadow: 0px 450px 40px rgb(51, 51, 51);
+    animation: sombra linear infinite 5s;
+}
+
+@keyframes sombra {
+    0% {
+    }
+    10% {
+
+    }
+    50% {
+        width: 150px;
+        height: 50px;
+        margin: -27% auto;
+    }
+}
+
+@keyframes flutuar {
+    0% {
+
+    }
+    10% {
+        margin: 5% auto;
+    }
+    50% {
+        margin: 3% auto;
+    }
+}
